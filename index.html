@@ -1,0 +1,15 @@
+<html>
+    <body>
+        <h1>GaryInnerarity.com</h1>
+        <h2>Last Edited: </h2>
+        <button onclick="myFunction()">Reveal</button>
+        <p id="Reveal"></p>
+        
+        <script>
+            function myFunction() {
+                var x = new Date(document.lastModified);
+                document.getElementById("Reveal").innerHTML = x;
+            }
+        </script>
+    </body>
+</html>
