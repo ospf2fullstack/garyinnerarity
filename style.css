@@ -243,18 +243,3 @@ body {
   height: 100vh;
   margin: 0;
 }
-
-.message {
-  position: absolute;
-  right: 30px;
-  top: 30%;
-  max-width: 100px;
-  border-radius: 30px;
-  padding: 10px;
-  color: #555;
-  background:linear-gradient(50deg, #fff, #eee);
-  box-shadow: 
-    .5px -.5px 1px 1px #fff,
-    -1px 1px 1px 1px #888,
-    -5px 8px 15px 1px #c7c7c7;
-}
