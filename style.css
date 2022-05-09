@@ -1,82 +1,103 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:400,300,100);
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+$container-shadow: 0.5rem 0.5rem 2rem 0 rgba(black, 0.2);
+
+$gutter: 30px;
+$border-width: 4px;
+$dot-diameter: 8px;
+
 body {
-  font-family: "Lato";
-  background: #2980b9;
-  overflow: hidden;
-  height: 100%;
-  width: 100%;
-  -webkit-font-smoothing: antialiased;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
-}
-
-#particles-js, #parallax, .layer, .some-space, .some-more-space {
-  height: 100%;
-  position: absolute;
-  width: 100%;
-}
-
-#particles-js {
-  opacity: 0.6;
-}
-
-h1 {
-  color: white;
-  font-size: 5em;
-  font-weight: 100;
-  letter-spacing: 0.2em;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate3d(-50%, -50%, 0);
-}
-
-a {
-  color: white;
-  border: 1px solid white;
-  display: table;
-  position: absolute;
-  top: 60%;
-  left: 50%;
-  letter-spacing: 0.05em;
-  transform: translate3d(-50%, -50%, 0);
-  text-decoration: none;
-  transition: all 200ms ease;
-  padding: 10px 15px;
-}
-a:hover {
-  background: white;
-  color: black;
-}
-
-.some-space {
-  animation: rotate 18s 0.5s infinite linear reverse;
-}
-
-.some-more-space {
-  -webkit-animation: rotate 15s 0.1s infinite linear;
-          animation: rotate 15s 0.1s infinite linear;
-}
-
-@-webkit-keyframes rotate {
-  0% {
-    transform: rotateZ(0deg) translate3d(0, 1.5%, 0) rotateZ(0deg);
-  }
-  100% {
-    transform: rotateZ(360deg) translate3d(0, 1.5%, 0) rotateZ(-360deg);
+  margin: 0;
+  padding: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  min-height: 100vh;
+  font-family: 'Source Sans Pro', arial, sans-serif;
+  font-weight: 300;
+  color: #333;
+  box-sizing: border-box;
+  background: linear-gradient(55deg,#fa7f72 30%,#e73827 90%);
+  * {
+    box-sizing: border-box;
   }
 }
 
-@keyframes rotate {
-  0% {
-    transform: rotateZ(0deg) translate3d(0, 1.5%, 0) rotateZ(0deg);
+.timeline {
+  padding: 100px 50px;
+  position: relative;
+  width:100%;
+  max-width:800px;
+  background:#fff;
+  box-shadow: $container-shadow;
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0px;
+    left:calc(33% + 15px); //$gutter/2
+    bottom: 0px;
+    width: $border-width;
+    background: #ddd;
   }
-  100% {
-    transform: rotateZ(360deg) translate3d(0, 1.5%, 0) rotateZ(-360deg);
-  }
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  } 
 }
 
-
-
+.entry {
+  position: relative;
+  text-align: left;
+  clear: both;
+  .title {
+    margin-bottom: .5em;
+    padding-right: $gutter;
+    width: 33%;
+    float: left;
+    text-align: right;
+    position: relative;
+    &:before {
+      content: '';
+      position: absolute;
+      top: 15%;
+      right: -$dot-diameter;
+      width: $dot-diameter;
+      height: $dot-diameter;
+      background-color:#fff;
+      border: $border-width solid salmon;
+      border-radius:100%;
+      z-index: 99;
+    }
+    h3 {
+      margin: 0;
+      font-size: 120%;
+    }
+    p {
+      margin: 0;
+      font-size: 100%;
+    }
+  }
+  .body {
+    margin: 0 0 3em;
+    padding-left: $gutter;
+    float: right;
+    width: 66%;
+    p {
+      line-height: 1.4em;
+      &:first-child {
+        margin-top: 0;
+        font-weight: 400;
+      }
+    }
+    ul {
+      padding-left: 0;
+      color:#aaa;
+      list-style-type: none;
+      li:before {
+        margin-right: .5em;
+        content: "–";
+      }
+    }
+  }
+}
