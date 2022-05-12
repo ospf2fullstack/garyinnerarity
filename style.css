@@ -45,7 +45,7 @@ body {
 ::selection {
   text-shadow: none;
   color: #fff;
-  background-color: #f8b639;
+  background-color: #2980b9;
 }
 
 html {
@@ -54,7 +54,7 @@ html {
 
 body {
   background: #e0e5ec;
-  color: #9baacf;
+  color: #2980b9;
   padding: 2rem;
   font-family: "Baloo Thambi 2", cursive !important;
   text-rendering: optimizeLegibility;
@@ -220,7 +220,7 @@ section > div {
   text-decoration: none;
   font-family: inherit;
   max-width: 100%;
-  color: #9baacf;
+  color: #2980b9;
   background: #e0e5ec;
   box-shadow: 0.3rem 0.3rem 0.5rem rgba(195, 193, 198, 0.9), -0.2rem -0.2rem 0.4rem #fff;
 }
@@ -240,13 +240,13 @@ section > div {
 .button--primary {
   color: #e0e5ec;
   background: #2980b9;
-  box-shadow: inset 0.2rem 0.2rem 0.5rem #f8b639, inset -0.2rem -0.2rem 0.5rem #2980b9, 0.3rem 0.3rem 0.5rem rgba(195, 193, 198, 0.9), -0.2rem -0.2rem 0.4rem #fff;
+  box-shadow: inset 0.2rem 0.2rem 0.5rem #2980b9, inset -0.2rem -0.2rem 0.5rem #2980b9, 0.3rem 0.3rem 0.5rem rgba(195, 193, 198, 0.9), -0.2rem -0.2rem 0.4rem #fff;
 }
 .button--primary:hover, .button--primary:focus {
   color: #fff;
 }
 .button--primary:active {
-  box-shadow: inset 0.2rem 0.2rem 0.5rem #2980b9, inset -0.2rem -0.2rem 0.5rem #f8b639;
+  box-shadow: inset 0.2rem 0.2rem 0.5rem #2980b9, inset -0.2rem -0.2rem 0.5rem #2980b9;
 }
 .button--round, .button--square {
   border-radius: 50%;
@@ -310,7 +310,7 @@ section > div {
 .textfield div input {
   background: transparent;
   border: none;
-  color: #9baacf;
+  color: #2980b9;
   flex: 1;
 }
 .textfield div input::-moz-placeholder {
