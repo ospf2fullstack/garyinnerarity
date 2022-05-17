@@ -12,6 +12,10 @@ body {
           user-select: none;
 }
 
+html {
+  scroll-behavior: smooth
+}
+
 /* Neumorphic Design --> Start */
 @charset "UTF-8";
 /* === COLOURS & VARIABLES === */
