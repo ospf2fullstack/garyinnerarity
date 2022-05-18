@@ -20,7 +20,7 @@ html {
 /* === COLOURS & VARIABLES === */
 :root {
   --primary: #2980b9;
-  --background: #e0e5ec;
+  --background: #ffffff;
 }
 
 /* === SHADOW TYPES === */
@@ -56,7 +56,7 @@ html {
 }
 
 body {
-  background: #e0e5ec;
+  background: #ffffff;
   color: #2980b9;
   padding: 2rem;
   font-family: "Baloo Thambi 2", cursive !important;
