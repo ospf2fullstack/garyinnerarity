@@ -613,6 +613,118 @@ section > div {
   visibility: visible;
   opacity: 1;
 }
+
+/* === CLOCK === */
+.clock {
+	background: $background;
+	border-radius: 50%;
+	height: 25vmin;
+	width: 25vmin;
+	box-shadow: ridge-shadow();
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	&__marker {
+		$marker-length: 1.5vmin;
+		$marker-width: 2px;
+		$marker-offset: 1vmin;
+		box-shadow: raised-shadow();
+		position: absolute;
+
+		&:nth-child(1) {
+			top: $marker-offset;
+			left: 50%;
+			transform: translatex(-50%);
+			height: $marker-length;
+			width: $marker-width;
+		}
+
+		&:nth-child(2) {
+			right: $marker-offset;
+			top: 50%;
+			transform: translatey(-50%);
+			width: $marker-length;
+			height: $marker-width;
+		}
+
+		&:nth-child(3) {
+			bottom: $marker-offset;
+			left: 50%;
+			transform: translatex(-50%);
+			height: $marker-length;
+			width: $marker-width;
+		}
+
+		&:nth-child(4) {
+			left: $marker-offset;
+			top: 50%;
+			transform: translatey(-50%);
+			width: $marker-length;
+			height: $marker-width;
+		}
+	}
+
+	&__center {
+		height: 1vmin;
+		width: 1vmin;
+		border-radius: 50%;
+		background: $primary;
+		position: relative;
+		z-index: 4;
+	}
+
+	&__hand {
+		transform-origin: bottom;
+		position: absolute;
+		border-radius: $standard-radius * 2;
+		bottom: 50%;
+
+		&--seconds {
+			height: 45%;
+			width: 0.3vmin;
+			background: $primary;
+			z-index: 3;
+		}
+
+		&--minutes {
+			height: 35%;
+			width: 0.5vmin;
+			background: $grey-5;
+			z-index: 2;
+		}
+
+		&--hours {
+			height: 25%;
+			width: 0.7vmin;
+			background: $grey-3;
+			z-index: 1;
+		}
+	}
+}
+
+.clock-alt {
+	@extend .emboss;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	padding: 4vmin 5vmin;
+	box-shadow: ridge-shadow();
+	border-radius: $standard-radius;
+	font-size: 10vmin;
+	min-width: 18vmin;
+	text-align: center;
+	user-select: none;
+	font-family: "Courier New", monospace;
+
+	> [class^="clock-alt__"] {
+		width: 25%;
+		min-width: 25%;
+		max-width: 25%;
+		padding: 0 1vmin;
+	}
+}
 /* === BLOCKQUOTE === */
 .quote {
   padding: 6vmin;
