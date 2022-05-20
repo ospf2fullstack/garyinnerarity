@@ -64,7 +64,7 @@
 ---------------------------------------------------------------------------------------------->
 <body>
 <div>
-    <h3 style="text-align: center;"><a href="https://www.magetowergames.com" style="color: rgb(14, 14, 112);">Current Project: Mage Tower Games</a></h2>
+    <h3 style="text-align: center;"><a href="https://www.magetowergames.com" target="_blank" style="color: rgb(14, 14, 112);">Current Project: Mage Tower Games</a></h2>
 <hr style="width: 100%;color:white">
 </div>
 <section>
@@ -87,7 +87,22 @@
 <hr style="width: 100%;color:white">
 <footer class="footer">
     <p>Developed by: Gary Innerarity. Hosted by Github, deliverd with CloudFlare.</p>
+<!-- FOOTER CLOCK ------------------------------------------------------------------------------->
+    <div>
+        <p id="clock">The Clock is Ticking! </p>
+    </div>
+    <script>
+        var myVar = setInterval(function() {
+        myTimer();
+      }, 1000);
+      
+      function myTimer() {
+        var d = new Date();
+        document.getElementById("clock").innerHTML = d.toLocaleTimeString();
+      }
+    </script>
+    <div>
+        <p><a href="https://open.spotify.com/episode/411II245sxyDQXAC9MZwXz" target="_blank">Motivation</a></p>
+    </div>
 </footer>
 </body>
-
-<!-- TEST -->
