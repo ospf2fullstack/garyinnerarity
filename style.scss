@@ -18,6 +18,21 @@ html {
 /* Neumorphic Design --> Start */
 @charset "UTF-8";
 /* === COLOURS & VARIABLES === */
+$primary: #ff7025;
+$primary-light: #f8b639;
+$primary-dark: #ff4c00;
+
+$white: #fff;
+$grey-1: #e0e5ec;
+$grey-2: #c3c1c6;
+$grey-3: #b1b1b1;
+$grey-5: #9baacf;
+$grey-fade-1: fade_out($grey-1, 0.1);
+$grey-fade-2: fade_out($grey-2, 0.1);
+
+$background: $grey-1;
+$standard-radius: 1.2rem;
+$standard-transition: 260ms;
 :root {
   --primary: #2980b9;
   --background: #e0e5ec;
