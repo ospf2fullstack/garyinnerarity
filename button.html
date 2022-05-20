@@ -1,0 +1,80 @@
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1">
+<title>Splash Page</title>
+<style media="screen">
+<!-- Webpage Header
+------------------------------------------------------------------------------------------------>
+<div>
+<h1 style="text-align: center;"><a href="index.html">Gary Innerarity, MBA</a></h1>
+</div>
+<!-- Social Tags in Header 
+--------------------------------------------------------------------------------------------->
+<div>
+    <h2 style="text-align: center;"><span class="a">CCNA, CCENT, CMNO, MTA, GCP</span></h2>
+        <div style="text-align: center;">
+            <p>
+                <i id="social-icon" class="fab fa-twitter-square"></i>
+                    <a class="nav-social" href="https://twitter.com/ospf2fullstack" target="_blank">Twitter </a>
+                <i id="social-icon" class="fab fa-github-square"></i>
+                    <a class="nav-social" href="https://github.com/ospf2fullstack" target="_blank">Github </a>
+                <i id="social-icon" class="fab fa-linkedin"></i>
+                    <a class="nav-social" href="https://www.linkedin.com/in/ginnerarity/" target="_blank">LinkedIn </a>
+                <i id="social-icon" class="fab fa-stack-overflow"></i>
+                    <a class="nav-social" href="https://stackoverflow.com/users/14178933/ospf2fullstack" target="_blank">Stack Overflow</a>
+            </p>
+        </div>
+</div>
+<!-- START Navbar 
+---------------------------------------------------------------------------------------------->
+<div id="nav-placeholder">
+    </div>
+    
+<script>
+        $(function(){
+  $("#nav-placeholder").load("nav.html");
+});
+</script>
+<!-- Start body  
+----------------------------------------------------------------------------------------------->
+body {
+    margin: 0;
+ }
+#video-container {
+    position: relative;
+    padding-top: 77.67%;
+    background-image: url(https://s3.amazonaws.com/garyinnerarity.com/images/desktops.jpg);
+    background-size: 100% auto;
+ }
+
+#video-container video {
+    position: absolute;
+    top: 50%;
+    left: 90%;
+    width: 40%;
+    transform: translate(-100%,-75%);
+ }
+@media screen and (max-width: 40em) {
+#video-container video {
+    width: 60%;
+  }
+ }
+@media screen and (max-width: 30em) {
+#video-container video {
+    width: 80%;
+  }
+ }
+@media screen and (max-width: 22.5em) {
+#video-container video {
+    width: 100%;
+  }
+ }
+</style>
+</head>
+<body> 
+<div id="video-container">
+ <video src="https://s3.amazonaws.com/garyinnerarity.com/movies/Brittle.mp4" autoplay controls muted>Your browser can’t play this video.</video>
+</div>
+</body>
+</html>
