@@ -142,19 +142,6 @@ h2 {
   text-shadow: rgba(255, 255, 255, 0.5) 1px 2px 1px;
 }
 
-.sr-only {
-  border: 0 !important;
-  clip: rect(1px, 1px, 1px, 1px) !important;
-  -webkit-clip-path: inset(50%) !important;
-          clip-path: inset(50%) !important;
-  height: 1px !important;
-  margin: -1px !important;
-  overflow: hidden !important;
-  padding: 0 !important;
-  position: absolute !important;
-  width: 1px !important;
-  white-space: nowrap !important;
-}
 
 /* === SHADOW TYPES ===*/
 .shadow--outset, .shadow--raised, .shadow--inset, .shadow--sunken, .shadow--ridge {
@@ -228,7 +215,7 @@ section > div {
   box-shadow: 0.3rem 0.3rem 0.5rem rgba(195, 193, 198, 0.9), -0.2rem -0.2rem 0.4rem #fff;
 }
 .button:hover, .button:focus {
-  color: #2980b9;
+  color: #13e90c;
   outline: none;
 }
 .button:active {
@@ -246,7 +233,7 @@ section > div {
   box-shadow: inset 0.2rem 0.2rem 0.5rem #2980b9, inset -0.2rem -0.2rem 0.5rem #2980b9, 0.3rem 0.3rem 0.5rem rgba(195, 193, 198, 0.9), -0.2rem -0.2rem 0.4rem #fff;
 }
 .button--primary:hover, .button--primary:focus {
-  color: #fff;
+  color: #2980b9;
 }
 .button--primary:active {
   box-shadow: inset 0.2rem 0.2rem 0.5rem #2980b9, inset -0.2rem -0.2rem 0.5rem #2980b9;
@@ -264,26 +251,26 @@ section > div {
   box-shadow: 0.3rem 0.3rem 0.5rem rgba(195, 193, 198, 0.9), -0.2rem -0.2rem 0.4rem #fff;
 }
 .button--round .button__icon, .button--square .button__icon {
-  height: 2rem;
-  width: 2rem;
+  height: 3rem;
+  width: 3rem;
 }
 .button--square {
   border-radius: 1.2rem;
 }
 .button--pin {
   border-radius: 50%;
-  min-height: 2rem;
-  min-width: 2rem;
-  max-height: 2rem;
-  max-width: 2rem;
+  min-height: 3rem;
+  min-width: 3rem;
+  max-height: 3rem;
+  max-width: 3rem;
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 0;
 }
 .button--pin .button__icon {
-  height: 1.8rem;
-  width: 1.8rem;
+  height: 3rem;
+  width: 3rem;
 }
 
 /* === TEXT FIELD === */
