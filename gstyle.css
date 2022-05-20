@@ -67,6 +67,21 @@ h3.BlogHeader {
 li.BlogList {
   margin-left: 35px;
 }
+/*          BUTTONS   --------------------------------------*/
+
+.button {
+  cursor: pointer;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	border: none;
+	border-radius: 2em;
+	padding: 1rem 3rem;
+	text-decoration: none;
+	font-family: inherit;
+	max-width: 100%;
+}
 
 /* Credit for list view: https://codepen.io/asraven/pen/qbrQMX 
 /* The list style w/ Icons
@@ -318,4 +333,9 @@ li.BlogList {
 
 .folder:hover {
   color: #00335f;
+}
+
+/* FOOTER */
+.footer {
+  display:block;
 }
