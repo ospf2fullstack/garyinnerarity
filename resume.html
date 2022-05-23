@@ -197,25 +197,15 @@ s.setAttribute('data-timestamp', +new Date());
 </div>
 <script id="dsq-count-scr" src="//garyinnerarity.disqus.com/count.js" async></script>
 <hr style="width: 100%;color:white">
-<footer class="footer">
-    <p>Developed by: Gary Innerarity. Hosted by Github, deliverd with CloudFlare.</p>
-<!-- FOOTER CLOCK ------------------------------------------------------------------------------->
-    <div>
-        <p id="clock">The Clock is Ticking! </p>
-    </div>
-    <script>
-        var myVar = setInterval(function() {
-        myTimer();
-      }, 1000);
-      
-      function myTimer() {
-        var d = new Date();
-        document.getElementById("clock").innerHTML = d.toLocaleTimeString();
-      }
-    </script>
-    <div>
-        <p><a href="https://open.spotify.com/episode/411II245sxyDQXAC9MZwXz" target="_blank" style="color: rgb(14, 14, 112);">Motivation</a></p>
-    </div>
-</footer>
+<!-- START FOOTER
+----------------------------------------------------------------------------------------------->
+<div id="footer-placeholder">
+</div>
+
+<script>
+    $(function(){
+        $("#footer-placeholder").load("footer.html");
+    });
+</script>
 </body>
 </html>
