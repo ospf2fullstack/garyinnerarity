@@ -5,7 +5,7 @@ const notion = new Client({
 })
 
 ;(async() => {
-    const res = notion.databases.query({
+    const res = await notion.databases.query({
         database_id: "db4d4ef0d38a42c3bff7b39f680f85ec"
     })
 
