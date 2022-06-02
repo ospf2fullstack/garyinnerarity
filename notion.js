@@ -1,23 +1,45 @@
-const { Client } = require("@notionhq/client")
+const { Client } = require("@notionhq/client");
 
-const notion = new Client({
-    auth: "secret_mgejPAroepvbewtx3fCUdTnlK5a7CHAdDF9FenP1xue"
-})
+const notion = new Client({ auth: process.env.NOTION_API_KEY});
 
-;(async() => {
-    const res = await notion.databases.query({
-        database_id: "db4d4ef0d38a42c3bff7b39f680f85ec"
-        filter: {
-            property: "Name",
-            text: {
-                contains: "GitHub"
-            }
-        }
+(async () => {
+    const response = await notion.databases.query({
+        const pageId = 'ba02ced6db5c496989c61072ae0adabd';
+        const response = await notion.pages.retrieve({page_id: pageId});
+        console.log(response);
+})();
+
+const container = document.createElement('div')
+container.setAttribute('class', 'container')
+
+app.appendChild(container)
+
+var request = new XMLHttpRequest()
+request.open('GET', 'https://ghibliapi.herokuapp.com/films', true)
+request.onload = function () {
+  // Begin accessing JSON data here
+  var data = JSON.parse(this.response)
+  if (request.status >= 200 && request.status < 400) {
+    data.forEach(movie => {
+      const card = document.createElement('div')
+      card.setAttribute('class', 'card')
+
+      const h1 = document.createElement('h1')
+      h1.textContent = movie.title
+
+      const p = document.createElement('p')
+      movie.description = movie.description.substring(0, 300)
+      p.textContent = `${movie.description}...`
+
+      container.appendChild(card)
+      card.appendChild(h1)
+      card.appendChild(p)
     })
+  } else {
+    const errorMessage = document.createElement('marquee')
+    errorMessage.textContent = `Gah, it's not working!`
+    app.appendChild(errorMessage)
+  }
+}
 
-    console.log(res)
-
-
-})()
-
-
+request.send()
