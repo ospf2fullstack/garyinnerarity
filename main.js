@@ -11,3 +11,5 @@ const notion = new Client({
 
     console.log(res)
 })()
+
+document.getElementById("notion").innerHTML = 'Hello'
