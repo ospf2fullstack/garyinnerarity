@@ -318,6 +318,15 @@ li.BlogList {
   display:block;
 }
 
+
+.charts {
+  padding: 20px;
+  font-weight: 300;
+}
+
+.charts-p {
+  padding: 30px;
+}
 /* LOADING SCREEN ------------------------------------->     */ 
 
 
