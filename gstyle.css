@@ -43,7 +43,7 @@ html {
   text-align: center;
 }
 #social-icon:hover {
-  color: #fd6500;
+  color: #aa1d04;
 }
 /* List Style View - Basic
 -------------------------------------------------------------- */
@@ -119,7 +119,7 @@ li.BlogList {
 
 .directory-list a:hover {
   border-color: white;
-  color: #5f0000;
+  color: #aa1d04;
 }
 
 .directory-list .folder,
