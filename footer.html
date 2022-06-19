@@ -1,23 +1,58 @@
+<style>
+    body {
+  margin: 0;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.footer {
+  overflow: hidden;
+  background-color: #00335f;
+}
+
+.footer a {
+  float: left;
+  color: rgb(243, 242, 242);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.footer a:hover {
+  background-color: rgb(243, 242, 242);
+  color: #2804aa;
+}
+
+.footer a.active {
+  background-color: #2804aa;
+  color: rgb(243, 242, 242);
+}
+
+.footer p {
+    color: aliceblue;
+}
+</style>
 <footer class="footer">
+    <a href="https://open.spotify.com/episode/411II245sxyDQXAC9MZwXz" target="_blank">Motivation</a>
+    <a href="https://garyinnerarity.notion.site/garyinnerarity/Gary-Innerarity-com-Public-Roadmap-4e9e2cdb7293494194d7f388116aa97f" target="_blank">Roadmap</a>
+    <a href="/blog.html">Brain Dump</a>  
+<div>
     <p>Dev: Gary Innerarity. Host: Github. Cache: CloudFlare.</p>
     <p>Tracking? Myself - not you.</p>
-<!-- FOOTER CLOCK ------------------------------------------------------------------------------->
-    <div>
+</div>    
+<div>
         <p id="clock">The Clock is Ticking! </p>
     </div>
-    <script>
-        var myVar = setInterval(function() {
-        myTimer();
-      }, 1000);
+
+
+<script>
+    var myVar = setInterval(function() {
+    myTimer();
+    }, 1000);
       
-      function myTimer() {
-        var d = new Date();
-        document.getElementById("clock").innerHTML = d.toLocaleTimeString();
-      }
-    </script>
-    <ul class="topnav">
-        <li><a href="https://open.spotify.com/episode/411II245sxyDQXAC9MZwXz" target="_blank" style="color: rgb(14, 14, 112);">Motivation</a></li>
-        <li><a href="https://garyinnerarity.notion.site/garyinnerarity/Gary-Innerarity-com-Public-Roadmap-4e9e2cdb7293494194d7f388116aa97f" target="_blank">Roadmap</a></li>
-        <li><a href="/blog.html">Brain Dump</a></li>
-    </ul>
+    function myTimer() {
+    var d = new Date();
+    document.getElementById("clock").innerHTML = d.toLocaleTimeString();
+    }
+</script>
 </footer>
