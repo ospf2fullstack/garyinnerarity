@@ -244,7 +244,9 @@ li.BlogList {
 .block:hover {
   background: #a5c3df;
 }
-
+.block a:hover{
+  color: #aa1d04;
+}
 /* Stack Section on Header 
 -----------------------------------------------------------------------*/
 
@@ -262,11 +264,13 @@ li.BlogList {
 .stack a {
   align-items: center;
 }
+.stack a:hover{
+  color: #aa1d04;
+}
 .stack:hover {
   background: #a5c3df;
+  color: #aa1d04;
 }
-
-
 
 /* Blog Page Folder Drop downs   
 -------------------------------------------------------------- */
