@@ -245,14 +245,8 @@ li.BlogList {
   background: #8094a7;
 }
 
-/* myTools Section on Header 
+/* Stack Section on Header 
 -----------------------------------------------------------------------*/
-#myStack {
-  text-align: center;
-  max-width: fit-content;
-  margin: 5 auto;
-  float: center;
-}
 
 .stack {
   width: 50px;
