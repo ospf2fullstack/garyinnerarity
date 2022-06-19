@@ -168,6 +168,7 @@ li.BlogList {
 --------------------------------------------------------------------*/
 .a {
   overflow: hidden;
+  font-weight: lighter;
   white-space: nowrap;
   animation: typewriter;
   display: inline-block;
@@ -211,7 +212,7 @@ li.BlogList {
   }
 }
 
-/* Resume Style Page 
+/* Base Formatting for Header 
 -------------------------------------------*/
 .resume {
   margin: 5px;
@@ -227,7 +228,7 @@ li.BlogList {
 }
 
 
-/* Blocks surrounding text and images on Resume Page 
+/* Blocks surrounding text and images on Header
 ------------------------------------------------------------------------*/
 .block {
   width: 180px;
@@ -244,7 +245,7 @@ li.BlogList {
   background: #8094a7;
 }
 
-/* myTools Section on myResume Page 
+/* myTools Section on Header 
 -----------------------------------------------------------------------*/
 #myTools {
   text-align: center;
@@ -268,35 +269,7 @@ li.BlogList {
   background: #8094a7;
 }
 
-/* myEDU Section of the Resume Page 
-------------------------------------------------------------------------*/
-.myEdu {
-  text-align: center;
-  max-width: fit-content;
-  margin: 0 auto;
-}
 
-/* myEmployment Secton of the Resume Page 
-------------------------------------------------------------------------*/ 
-.myEmployment {
-  background: #ffffff;
-  position: relative;
-  color: #00335f;
-  padding: 5px 5px;
-  border-radius: 1px;
-  width: 100%;
-  height: auto;
-}
-.resume-card {
-  background: rgb(255, 255, 255);
-  position: relative;
-  color: #00335f;
-  padding: 2px 2px;
-  border-radius: 3px;
-  width: 70%;
-  height: auto;
-  border: 1px solid #00335f;
-}
 
 /* Blog Page Folder Drop downs   
 -------------------------------------------------------------- */
