@@ -336,6 +336,9 @@ h2 {
   letter-spacing: .1em;
 }
 
+p {
+  font-size: small;
+}
 /*
  * Loading Dots
  * Can we use pseudo elements here instead :after?
