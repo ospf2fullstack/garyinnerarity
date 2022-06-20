@@ -399,3 +399,17 @@ h4 {
     opacity: 1;
   }
 }
+
+
+/* TABLE FORMATTING FOR INDEX.HTML */
+.balancesheet {
+  border:1px solid black;
+}
+
+.balancesheet th {
+  border: solid black;
+}
+
+.balancesheet td {
+  border: solid black;
+}
