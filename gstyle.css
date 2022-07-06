@@ -111,6 +111,16 @@ li.BlogList {
   }
 }
 
+/* for CISCO ICON
+----------------------------------------------------------------------*/
+.cisco {
+  background: url('.//images/cisco_icon.png');
+  height: 48px;
+  width: 48px;
+  align-items: center;
+  display:block;
+}
+
 /* Home Page 3 columns
 ---------------------------------------------------------------------*/
 * {
