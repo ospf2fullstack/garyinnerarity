@@ -111,16 +111,6 @@ li.BlogList {
   }
 }
 
-/* for CISCO ICON
-----------------------------------------------------------------------*/
-.cisco {
-  background: url('.//images/cisco_icon.png');
-  height: 48px;
-  width: 48px;
-  align-items: center;
-  display:block;
-}
-
 /* Home Page 3 columns
 ---------------------------------------------------------------------*/
 * {
@@ -206,59 +196,12 @@ li.BlogList {
   color: #aa1d04;
 }
 
-/* Blog Page Folder Drop downs   
--------------------------------------------------------------- */
-/* Style the caret/arrow */
-.caret {
-  cursor: pointer;
-  user-select: none; /* Prevent text selection  */
-}
-
-/* Create the caret/arrow with a unicode, and style it */
-.caret::before {
-  content: "";
-  color: black;
-  display: inline-block;
-  margin-right: 6px;
-}
-
-/* Rotate the caret/arrow icon when clicked on (using JavaScript) */
-.caret-down::before {
-  transform: rotate(90deg);
-}
-
-
-/* Hide the nested list */
-.nested {
-  display: none;
-}
-
-/* Show the nested list when the user clicks on the caret/arrow (with JavaScript) */
-.active {
-  display: block;
-}
-
-/* Blog Folder Hover Color */
-.caret:hover {
-  color: #00335f;
-}
-
-.folder:hover {
-  color: #067de6;
-}
 
 /* FOOTER */
 .footer {
   display:block;
 }
-
-
-
-
-
 /* LOADING SCREEN ------------------------------------->     */ 
-
-
 /*
  * Baseline styles
  */
