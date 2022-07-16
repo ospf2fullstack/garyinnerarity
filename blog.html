@@ -41,8 +41,15 @@ $("#nav-placeholder").load("nav.html");
         $("#header-placeholder").load("header.html");
     });
 </script>
+<script>
+    const notionDocId = "87f95acceffe4a359ddf4125de5040e1"
 
-
+fetch("https://potion-api.now.sh/html?id=" + notionDocId)
+  .then(res => res.text())
+  .then(text => {
+    document.querySelector("main").innerHTML = text
+  })
+</script>
 
 <!-- Start Body 
 ---------------------------------------------------------------------------------------------->
