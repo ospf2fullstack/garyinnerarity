@@ -1,0 +1,4 @@
+#default configuration
+baseURL = "/"
+languageCode = "en-us"
+relativeURLs = "true"
