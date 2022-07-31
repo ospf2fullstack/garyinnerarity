@@ -12,7 +12,7 @@ html {
 }
 
 .dark-mode {
-  background-color: rgb(20, 19, 19);
+  background-color: #24262b;
   color: white;
 }
 
@@ -37,7 +37,7 @@ html {
   text-align: center;
 }
 .nav-social:hover {
-  color: #00335f;
+  color: #24262b;
 }
 #social-icon {
   text-align: center;
@@ -194,11 +194,11 @@ li.BlogList {
   align-items: center;
 }
 .stack a:hover{
-  color: #aa1d04;
+  color: #00335f;
 }
 .stack:hover {
   background: #a5c3df;
-  color: #aa1d04;
+  color: #00335f;
 }
 
 /* LOADING SCREEN 
@@ -211,7 +211,7 @@ li.BlogList {
   padding: 10%;
 }
 h3 {
-  color: #00335f;
+  color: #24262b;
   margin: 0;
   font: .8em verdana;
   text-transform: uppercase;
@@ -277,3 +277,6 @@ h4 {
     opacity: 1;
   }
 }
+
+/* <----------------   TESTING AREA ------------------------------------------------> */
+
