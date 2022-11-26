@@ -2,7 +2,7 @@ html {
   font-family: Georgia, 'Times New Roman', Times, serif;
   line-height: 1.15;
   background-color: #ffffff;
-  color: #24262b;
+  color: #052c91;
 }
 /* Responsive Images 
 ------------------------------------- */
@@ -37,7 +37,7 @@ html {
   text-align: center;
 }
 .nav-social:hover {
-  color: #24262b;
+  color: #052c91;
 }
 #social-icon {
   text-align: center;
@@ -67,7 +67,7 @@ li:hover {
   color: white;
 }
 a:any-link {
-  color: #24262b;
+  color: #052c91;
 }
 h3.BlogHeader {
   margin-left: 30px;
@@ -194,11 +194,11 @@ li.BlogList {
   align-items: center;
 }
 .stack a:hover{
-  color: #24262b;
+  color: #052c91;
 }
 .stack:hover {
   background: #a5c3df;
-  color: #24262b;
+  color: #052c91;
 }
 
 /* LOADING SCREEN 
