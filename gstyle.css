@@ -142,7 +142,7 @@ li.BlogList {
 }
 
 /* Base Formatting for Header 
--------------------------------------------*/
+---------------------------------------------------------------------*/
 .resume {
   margin: 5px;
   width: auto;
@@ -202,10 +202,7 @@ li.BlogList {
 }
 
 /* LOADING SCREEN 
--------------------------------------------------------------------- */ 
-/*
- * Baseline styles
- */
+-------------------------------------------------------------------- */
 .loading {
   text-align: center;
   padding: 10%;
@@ -221,10 +218,7 @@ h3 {
 h4 {
   font-size: small;
 }
-/*
- * Loading Dots
- * Can we use pseudo elements here instead :after?
- */
+
 .loading span {
   display: inline-block;
   vertical-align: middle;
@@ -236,10 +230,6 @@ h4 {
   animation: loading 1s infinite alternate;
 }
 
-/*
- * Dots Colors
- * Smarter targeting vs nth-of-type?
- */
 .loading span:nth-of-type(2) {
   background: #008FB2;
   animation-delay: 0.2s;
@@ -265,10 +255,6 @@ h4 {
   animation-delay: 1.2s;
 }
 
-/*
- * Animation keyframes
- * Use transition opacity instead of keyframes?
- */
 @keyframes loading {
   0% {
     opacity: 0;
@@ -277,6 +263,3 @@ h4 {
     opacity: 1;
   }
 }
-
-/* <----------------   TESTING AREA ------------------------------------------------> */
-
