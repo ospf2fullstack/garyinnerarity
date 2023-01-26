@@ -2,7 +2,7 @@ html {
   font-family: Georgia, 'Times New Roman', Times, serif;
   line-height: 1.15;
   background-color: #ffffff;
-  color: #2980b9;
+  color: #295bb9;
 }
 /* Responsive Images 
 ------------------------------------- */
@@ -67,7 +67,7 @@ li:hover {
   color: white;
 }
 a:any-link {
-  color: #2980b9;
+  color: #295bb9;
 }
 h3.BlogHeader {
   margin-left: 30px;
@@ -208,7 +208,7 @@ li.BlogList {
   padding: 10%;
 }
 h3 {
-  color: #2980b9;
+  color: #295bb9;
   margin: 0;
   font: .8em verdana;
   text-transform: uppercase;
@@ -225,7 +225,7 @@ h4 {
   width: .6em;
   height: .6em;
   margin: .19em;
-  background: #007DB6;
+  background: #295bb9;
   border-radius: .6em;
   animation: loading 1s infinite alternate;
 }
