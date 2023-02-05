@@ -11,11 +11,6 @@ html {
   height: auto;
 }
 
-.dark-mode {
-  background-color: #24262b;
-  color: white;
-}
-
 /* Start Nav2 */
 .nav2 {
   display: inline;
@@ -44,22 +39,7 @@ html {
 }
 #social-icon:hover {
   color: #aa1d04;
-}
-/* List Style View - Basic
--------------------------------------------------------------- */
-
-dt {
-  font-family: monospace;
-  font-size: 20px;
-}
-dd {
-  font-family: serif;
-  color: white;
-}
-
-li:hover {
-  color: #aa1d04;
-}
+} */
 
 /* Page Style 
 ------------------------------------------------------------------- */
@@ -75,87 +55,6 @@ h3.BlogHeader {
 li.BlogList {
   margin-left: 35px;
 }
-/* BUTTONS   
-------------------------------------------------------------------*/
-
-.button {
-  cursor: pointer;
-	display: inline-flex;
-	align-items: center;
-	justify-content: center;
-	text-align: center;
-	border: none;
-	border-radius: 2em;
-	padding: 1rem 3rem;
-	text-decoration: none;
-	font-family: inherit;
-	max-width: 100%;
-}
-
-
-/* certification header blocks 
---------------------------------------------------------------------*/
-.a {
-  overflow: hidden;
-  font-weight: lighter;
-  white-space: nowrap;
-  animation: typewriter;
-  display: inline-block;
-  position: left;
-  animation-delay: 1s;
-  animation-duration: 8s;
-  animation-timing-function: steps (24, end);
-  animation-iteration-count: infinite;
-}
-@keyframes typewriter {
-  0%, 100% {
-    width: 0;
-  }
-  20%, 80% {
-    width: 18em;
-  }
-}
-
-/* Home Page 3 columns
----------------------------------------------------------------------*/
-* {
-  box-sizing: border-box;
-}
-.row {
-  color: white;
-}
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-.column{
-  float: left;
-  width: 33.33%;
-  padding: 10px;
-  height: 300px;
-}
-@media screen and (max-width: 600px) {
-.column {
-  width: 100%;
-  }
-}
-
-/* Base Formatting for Header 
----------------------------------------------------------------------*/
-.resume {
-  margin: 5px;
-  width: auto;
-}
-#myMental {
-  text-align: center;
-}
-#mySpecialty {
-  text-align: center;
-  max-width: fit-content;
-  margin: 0 auto;
-}
-
 
 /* Blocks surrounding text and images on Header
 ------------------------------------------------------------------------*/
@@ -180,9 +79,9 @@ li.BlogList {
 -----------------------------------------------------------------------*/
 
 .stack {
-  width: 50px;
-  height: 50px;
-  margin: 5px;
+  width: 40px;
+  height: 40px;
+  margin: 2px;
   display: inline-flex;
   background: transparent;
   border-radius: 5px;
@@ -263,3 +162,45 @@ h4 {
     opacity: 1;
   }
 }
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 50%;
+  margin: auto;
+  text-align: center;
+  padding: 4px;
+}
+
+.card:hover {
+  padding: 5px;
+  background-color: #f4f8ff;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #3c4d74;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+button:hover, a:hover {
+  opacity: 0.9;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: rgb(207, 36, 36);
+}
+
