@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/ospf2fullstack
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://garyinnerarity.com
+  * I am ospf2fullstack (https://keybase.io/ospf2fullstack) on keybase.
+  * I have a public key ASCMfY2duKv7blumNkZy5p0l7KYfpKh5Ml0FG7Gmwxa0Jwo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01203533ea776edcafb10b8ff952cf48f9377c5b60ae97584e126d1a99684681c52b0a",
+      "host": "keybase.io",
+      "kid": "01208c7d8d9db8abfb6e5ba6364672e69d25eca61fa4a879325d051bb1a6c316b4270a",
+      "uid": "d5431a165bcbea7424708062d4a66e19",
+      "username": "ospf2fullstack"
+    },
+    "merkle_root": {
+      "ctime": 1675814894,
+      "hash": "4970b569cac8ef7f99acaa37cc71204a00a060525c5e102c8457d10b9a00794225124375f0ead23a73131606bd3273f9daaaedd9dfb8bffb413c357a173361d2",
+      "hash_meta": "f2e46bdf92a76bd9c633cfb0903abed5cb779f9833e9ace560a824e0815e636a",
+      "seqno": 24007783
+    },
+    "service": {
+      "entropy": "KvDmXU7JytgTmHBqfVeyC6tG",
+      "hostname": "garyinnerarity.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "6.0.4"
+  },
+  "ctime": 1675814928,
+  "expire_in": 504576000,
+  "prev": "c3423e96af3739cfeef94b4289dd3dccc91752e070b9383bc8c1ffa14a95a4f7",
+  "seqno": 28,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgjH2Nnbir+25bpjZGcuadJeymH6SoeTJdBRuxpsMWtCcKp3BheWxvYWTESpcCHMQgw0I+lq83Oc/u+UtCid09zMkXUuBwuTg7yMH/oUqVpPfEINLWW7cK/pRQ1FlCx5A+r8ZKr3nS/kfVapE+LMR6Lp0JAgHCo3NpZ8RA5Y16SNTKEGc0PhvxuwstaccUN4QDjgPkYljyuwbkBpBJ7/ZWUUPtwKk92YZ3gbeOeD9OF2IL0Fb5c54cOq36DqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIMeFNOwn8NK4dAHtW5iRhk7rDt88e7lzg4juaUG8TO9fo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/ospf2fullstack
+
+==================================================================
