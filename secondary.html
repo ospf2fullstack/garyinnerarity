@@ -58,6 +58,25 @@
 <br>
 <hr style="width: 100%;color:white">
 
+<!-- JAVASCRIPT VISITOR COUNTER ADD-ON   
+------------------------------------------------------------------------------------>
+<div class="visitorcounter"></div>
+<script>
+    var counterContainer = document.querySelector(".visitorcounter");
+    var visitCount = localStorage.getItem("page_view");
+    visitCount = 1;
+
+    //add entry for key="page_view"
+    localStorage.setItem("page_view", 1);
+    
+    visitCount = Number(visitCount) + 1;
+
+    //update local storage value
+    localStorage.setItem("page_view", visitCount);
+
+    counterContainer.innerHTML = visitCount;
+
+</script>
 <!-- FOOTER STARTS HERE
 ------------------------------------------------------------------------------------>
 <div id="footer-placeholder">
