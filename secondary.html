@@ -61,6 +61,23 @@
 <!-- JAVASCRIPT VISITOR COUNTER ADD-ON   
 ------------------------------------------------------------------------------------>
 <div class="visitorcounter"></div>
+<div class="visitorCounter2"></div>
+<script>
+    var counterContainer = document.querySelector(".visitorCounter2");
+    const api_url = "https://d5ogjfohjg.execute-api.us-east-1.amazonaws.com/prod";
+    fetch(api_url)
+        .then((response) => {
+            return response.json();
+        })
+        .then((data)=> {
+            // update the page with the visitor count from dynamodb
+            document.getElementByID("read-more").innerHTML = data;
+        })
+        .catch(function (error) {
+            // handle any errors that occur during the request
+            console.log(error);
+        });
+</script>
 <script>
     var counterContainer = document.querySelector(".visitorcounter");
     var visitCount = localStorage.getItem("page_view");
